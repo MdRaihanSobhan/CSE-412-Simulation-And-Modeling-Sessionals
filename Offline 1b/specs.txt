@@ -1,0 +1,19 @@
+The task is to perform a simulation of a single-product inventory system for the objective of comparison of alternative ordering policies.  The inventory is maintained by a company which would like to decide how many items it should have in inventory for each of the next n months, where n is a fixed input parameter. The Economic Order Quantity (EOQ) is a company's optimal or ideal order quantity that meets demand while minimizing its total costs related to ordering items, holding inventory, and shortage. 
+
+A stationary ordering policy in the EOQ model can be used to determine the volume and frequency of orders, and it serves as a tool for management of inventory. The stationary ordering policy as well various cost components associated with the single-product inventory system is described in the text book in section 1.5.
+
+The input and output should be text files as shown in the attached zip file.
+
+The description of the input file is as follows,
+
+The first line would contain 3 space-separated numbers I, M, P denoting the Initial Inventory Level, Total Number of Months (the length of the simulation) and Number of Policies, respectively.
+
+The next line would have 2 numbers D, beta_D as the Number of Demand Sizes and the Mean Inter-demand Time in months, respectively.
+
+The next line would have 4 numbers K, i, h, pi as the Setup Cost and per-unit Incremental Cost, Holding Cost and Shortage Cost, respectively.
+
+The next line would have 2 numbers min_lag, max_lag as the Minimum delivery lag and Maximum delivery lag in months, respectively.
+
+The next line would have D space-separated numbers specifying the cumulative distribution function of the Demand Sizes.
+
+The next P lines each would have 2 space-separated numbers s, S denoting an ordering policy.

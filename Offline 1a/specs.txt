@@ -1,0 +1,5 @@
+The task is to perform a simulation of a single-server queueing system.
+
+The system as well as the performance measures is described in the text book in section 1.4.
+
+The input and output should be text files which are shown in the attached zip file.
